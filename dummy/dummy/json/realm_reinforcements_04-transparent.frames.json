@@ -1,0 +1,793 @@
+{
+  "image": "/generated-assets/realm_reinforcements_04-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 4,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "reinforce_a_move_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 30,
+        "y": 62,
+        "w": 350,
+        "h": 255
+      },
+      "anchor": {
+        "x": 205,
+        "y": 316
+      }
+    },
+    {
+      "name": "reinforce_a_move_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 434,
+        "y": 59,
+        "w": 325,
+        "h": 260
+      },
+      "anchor": {
+        "x": 597,
+        "y": 318
+      }
+    },
+    {
+      "name": "reinforce_a_move_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 817,
+        "y": 64,
+        "w": 324,
+        "h": 254
+      },
+      "anchor": {
+        "x": 979,
+        "y": 317
+      }
+    },
+    {
+      "name": "reinforce_a_move_4",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1236,
+        "y": 56,
+        "w": 300,
+        "h": 258
+      },
+      "anchor": {
+        "x": 1386,
+        "y": 313
+      }
+    },
+    {
+      "name": "reinforce_a_move_5",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1586,
+        "y": 63,
+        "w": 348,
+        "h": 249
+      },
+      "anchor": {
+        "x": 1760,
+        "y": 311
+      }
+    },
+    {
+      "name": "reinforce_a_attack_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 30,
+        "y": 468,
+        "w": 345,
+        "h": 245
+      },
+      "anchor": {
+        "x": 203,
+        "y": 712
+      }
+    },
+    {
+      "name": "reinforce_a_attack_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 440,
+        "y": 367,
+        "w": 320,
+        "h": 358
+      },
+      "anchor": {
+        "x": 600,
+        "y": 724
+      }
+    },
+    {
+      "name": "reinforce_a_attack_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 812,
+        "y": 446,
+        "w": 350,
+        "h": 303
+      },
+      "anchor": {
+        "x": 987,
+        "y": 748
+      }
+    },
+    {
+      "name": "reinforce_a_attack_4",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1215,
+        "y": 365,
+        "w": 322,
+        "h": 369
+      },
+      "anchor": {
+        "x": 1376,
+        "y": 733
+      }
+    },
+    {
+      "name": "reinforce_a_attack_5",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1591,
+        "y": 468,
+        "w": 345,
+        "h": 246
+      },
+      "anchor": {
+        "x": 1764,
+        "y": 713
+      }
+    },
+    {
+      "name": "reinforce_b_move_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 24,
+        "y": 769,
+        "w": 358,
+        "h": 349
+      },
+      "anchor": {
+        "x": 203,
+        "y": 1117
+      }
+    },
+    {
+      "name": "reinforce_b_move_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 421,
+        "y": 769,
+        "w": 330,
+        "h": 350
+      },
+      "anchor": {
+        "x": 586,
+        "y": 1118
+      }
+    },
+    {
+      "name": "reinforce_b_move_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 814,
+        "y": 769,
+        "w": 327,
+        "h": 350
+      },
+      "anchor": {
+        "x": 978,
+        "y": 1118
+      }
+    },
+    {
+      "name": "reinforce_b_move_4",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1211,
+        "y": 769,
+        "w": 339,
+        "h": 350
+      },
+      "anchor": {
+        "x": 1381,
+        "y": 1118
+      }
+    },
+    {
+      "name": "reinforce_b_move_5",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1591,
+        "y": 769,
+        "w": 338,
+        "h": 350
+      },
+      "anchor": {
+        "x": 1760,
+        "y": 1118
+      }
+    },
+    {
+      "name": "reinforce_b_attack_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 20,
+        "y": 1153,
+        "w": 333,
+        "h": 355
+      },
+      "anchor": {
+        "x": 187,
+        "y": 1507
+      }
+    },
+    {
+      "name": "reinforce_b_attack_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 415,
+        "y": 1144,
+        "w": 323,
+        "h": 365
+      },
+      "anchor": {
+        "x": 577,
+        "y": 1508
+      }
+    },
+    {
+      "name": "reinforce_b_attack_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 756,
+        "y": 1138,
+        "w": 421,
+        "h": 384
+      },
+      "anchor": {
+        "x": 967,
+        "y": 1521
+      }
+    },
+    {
+      "name": "reinforce_b_attack_4",
+      "source": {
+        "x": 1208,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1177,
+        "y": 1184,
+        "w": 431,
+        "h": 334
+      },
+      "anchor": {
+        "x": 1393,
+        "y": 1517
+      }
+    },
+    {
+      "name": "reinforce_b_attack_5",
+      "source": {
+        "x": 1592,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1629,
+        "y": 1153,
+        "w": 321,
+        "h": 355
+      },
+      "anchor": {
+        "x": 1790,
+        "y": 1507
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "reinforce_a_move",
+      "frames": [
+        {
+          "name": "reinforce_a_move_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 30,
+            "y": 62,
+            "w": 350,
+            "h": 255
+          },
+          "anchor": {
+            "x": 205,
+            "y": 316
+          }
+        },
+        {
+          "name": "reinforce_a_move_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 434,
+            "y": 59,
+            "w": 325,
+            "h": 260
+          },
+          "anchor": {
+            "x": 597,
+            "y": 318
+          }
+        },
+        {
+          "name": "reinforce_a_move_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 817,
+            "y": 64,
+            "w": 324,
+            "h": 254
+          },
+          "anchor": {
+            "x": 979,
+            "y": 317
+          }
+        },
+        {
+          "name": "reinforce_a_move_4",
+          "source": {
+            "x": 1208,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1236,
+            "y": 56,
+            "w": 300,
+            "h": 258
+          },
+          "anchor": {
+            "x": 1386,
+            "y": 313
+          }
+        },
+        {
+          "name": "reinforce_a_move_5",
+          "source": {
+            "x": 1592,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1586,
+            "y": 63,
+            "w": 348,
+            "h": 249
+          },
+          "anchor": {
+            "x": 1760,
+            "y": 311
+          }
+        }
+      ]
+    },
+    {
+      "name": "reinforce_a_attack",
+      "frames": [
+        {
+          "name": "reinforce_a_attack_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 30,
+            "y": 468,
+            "w": 345,
+            "h": 245
+          },
+          "anchor": {
+            "x": 203,
+            "y": 712
+          }
+        },
+        {
+          "name": "reinforce_a_attack_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 440,
+            "y": 367,
+            "w": 320,
+            "h": 358
+          },
+          "anchor": {
+            "x": 600,
+            "y": 724
+          }
+        },
+        {
+          "name": "reinforce_a_attack_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 812,
+            "y": 446,
+            "w": 350,
+            "h": 303
+          },
+          "anchor": {
+            "x": 987,
+            "y": 748
+          }
+        },
+        {
+          "name": "reinforce_a_attack_4",
+          "source": {
+            "x": 1208,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1215,
+            "y": 365,
+            "w": 322,
+            "h": 369
+          },
+          "anchor": {
+            "x": 1376,
+            "y": 733
+          }
+        },
+        {
+          "name": "reinforce_a_attack_5",
+          "source": {
+            "x": 1592,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1591,
+            "y": 468,
+            "w": 345,
+            "h": 246
+          },
+          "anchor": {
+            "x": 1764,
+            "y": 713
+          }
+        }
+      ]
+    },
+    {
+      "name": "reinforce_b_move",
+      "frames": [
+        {
+          "name": "reinforce_b_move_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 24,
+            "y": 769,
+            "w": 358,
+            "h": 349
+          },
+          "anchor": {
+            "x": 203,
+            "y": 1117
+          }
+        },
+        {
+          "name": "reinforce_b_move_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 421,
+            "y": 769,
+            "w": 330,
+            "h": 350
+          },
+          "anchor": {
+            "x": 586,
+            "y": 1118
+          }
+        },
+        {
+          "name": "reinforce_b_move_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 814,
+            "y": 769,
+            "w": 327,
+            "h": 350
+          },
+          "anchor": {
+            "x": 978,
+            "y": 1118
+          }
+        },
+        {
+          "name": "reinforce_b_move_4",
+          "source": {
+            "x": 1208,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1211,
+            "y": 769,
+            "w": 339,
+            "h": 350
+          },
+          "anchor": {
+            "x": 1381,
+            "y": 1118
+          }
+        },
+        {
+          "name": "reinforce_b_move_5",
+          "source": {
+            "x": 1592,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1591,
+            "y": 769,
+            "w": 338,
+            "h": 350
+          },
+          "anchor": {
+            "x": 1760,
+            "y": 1118
+          }
+        }
+      ]
+    },
+    {
+      "name": "reinforce_b_attack",
+      "frames": [
+        {
+          "name": "reinforce_b_attack_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 20,
+            "y": 1153,
+            "w": 333,
+            "h": 355
+          },
+          "anchor": {
+            "x": 187,
+            "y": 1507
+          }
+        },
+        {
+          "name": "reinforce_b_attack_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 415,
+            "y": 1144,
+            "w": 323,
+            "h": 365
+          },
+          "anchor": {
+            "x": 577,
+            "y": 1508
+          }
+        },
+        {
+          "name": "reinforce_b_attack_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 756,
+            "y": 1138,
+            "w": 421,
+            "h": 384
+          },
+          "anchor": {
+            "x": 967,
+            "y": 1521
+          }
+        },
+        {
+          "name": "reinforce_b_attack_4",
+          "source": {
+            "x": 1208,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1177,
+            "y": 1184,
+            "w": 431,
+            "h": 334
+          },
+          "anchor": {
+            "x": 1393,
+            "y": 1517
+          }
+        },
+        {
+          "name": "reinforce_b_attack_5",
+          "source": {
+            "x": 1592,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1629,
+            "y": 1153,
+            "w": 321,
+            "h": 355
+          },
+          "anchor": {
+            "x": 1790,
+            "y": 1507
+          }
+        }
+      ]
+    }
+  ]
+}

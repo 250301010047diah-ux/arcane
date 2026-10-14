@@ -1,0 +1,793 @@
+{
+  "image": "/generated-assets/realm_enemies_10-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 4,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "corrupt_slime_move_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 36,
+        "y": 120,
+        "w": 333,
+        "h": 224
+      },
+      "anchor": {
+        "x": 203,
+        "y": 343
+      }
+    },
+    {
+      "name": "corrupt_slime_move_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 437,
+        "y": 78,
+        "w": 329,
+        "h": 269
+      },
+      "anchor": {
+        "x": 602,
+        "y": 346
+      }
+    },
+    {
+      "name": "corrupt_slime_move_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 830,
+        "y": 17,
+        "w": 316,
+        "h": 330
+      },
+      "anchor": {
+        "x": 988,
+        "y": 346
+      }
+    },
+    {
+      "name": "corrupt_slime_move_4",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1226,
+        "y": 46,
+        "w": 308,
+        "h": 301
+      },
+      "anchor": {
+        "x": 1380,
+        "y": 346
+      }
+    },
+    {
+      "name": "corrupt_slime_move_5",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1604,
+        "y": 120,
+        "w": 333,
+        "h": 224
+      },
+      "anchor": {
+        "x": 1771,
+        "y": 343
+      }
+    },
+    {
+      "name": "corrupt_slime_attack_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 35,
+        "y": 437,
+        "w": 331,
+        "h": 276
+      },
+      "anchor": {
+        "x": 201,
+        "y": 712
+      }
+    },
+    {
+      "name": "corrupt_slime_attack_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 407,
+        "y": 434,
+        "w": 332,
+        "h": 277
+      },
+      "anchor": {
+        "x": 573,
+        "y": 710
+      }
+    },
+    {
+      "name": "corrupt_slime_attack_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 801,
+        "y": 401,
+        "w": 399,
+        "h": 339
+      },
+      "anchor": {
+        "x": 1001,
+        "y": 739
+      }
+    },
+    {
+      "name": "corrupt_slime_attack_4",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1218,
+        "y": 438,
+        "w": 368,
+        "h": 280
+      },
+      "anchor": {
+        "x": 1402,
+        "y": 717
+      }
+    },
+    {
+      "name": "corrupt_slime_attack_5",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1608,
+        "y": 490,
+        "w": 330,
+        "h": 223
+      },
+      "anchor": {
+        "x": 1773,
+        "y": 712
+      }
+    },
+    {
+      "name": "executioner_move_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 32,
+        "y": 778,
+        "w": 346,
+        "h": 305
+      },
+      "anchor": {
+        "x": 205,
+        "y": 1082
+      }
+    },
+    {
+      "name": "executioner_move_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 441,
+        "y": 762,
+        "w": 325,
+        "h": 325
+      },
+      "anchor": {
+        "x": 604,
+        "y": 1086
+      }
+    },
+    {
+      "name": "executioner_move_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 806,
+        "y": 795,
+        "w": 356,
+        "h": 291
+      },
+      "anchor": {
+        "x": 984,
+        "y": 1085
+      }
+    },
+    {
+      "name": "executioner_move_4",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1218,
+        "y": 770,
+        "w": 317,
+        "h": 326
+      },
+      "anchor": {
+        "x": 1377,
+        "y": 1095
+      }
+    },
+    {
+      "name": "executioner_move_5",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1591,
+        "y": 780,
+        "w": 352,
+        "h": 306
+      },
+      "anchor": {
+        "x": 1767,
+        "y": 1085
+      }
+    },
+    {
+      "name": "executioner_attack_1",
+      "source": {
+        "x": 56,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 27,
+        "y": 1139,
+        "w": 356,
+        "h": 313
+      },
+      "anchor": {
+        "x": 205,
+        "y": 1451
+      }
+    },
+    {
+      "name": "executioner_attack_2",
+      "source": {
+        "x": 440,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 418,
+        "y": 1128,
+        "w": 361,
+        "h": 313
+      },
+      "anchor": {
+        "x": 599,
+        "y": 1440
+      }
+    },
+    {
+      "name": "executioner_attack_3",
+      "source": {
+        "x": 824,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 807,
+        "y": 1139,
+        "w": 370,
+        "h": 340
+      },
+      "anchor": {
+        "x": 992,
+        "y": 1478
+      }
+    },
+    {
+      "name": "executioner_attack_4",
+      "source": {
+        "x": 1208,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1177,
+        "y": 1143,
+        "w": 430,
+        "h": 418
+      },
+      "anchor": {
+        "x": 1392,
+        "y": 1560
+      }
+    },
+    {
+      "name": "executioner_attack_5",
+      "source": {
+        "x": 1592,
+        "y": 1208,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1561,
+        "y": 1140,
+        "w": 389,
+        "h": 419
+      },
+      "anchor": {
+        "x": 1756,
+        "y": 1558
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "corrupt_slime_move",
+      "frames": [
+        {
+          "name": "corrupt_slime_move_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 36,
+            "y": 120,
+            "w": 333,
+            "h": 224
+          },
+          "anchor": {
+            "x": 203,
+            "y": 343
+          }
+        },
+        {
+          "name": "corrupt_slime_move_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 437,
+            "y": 78,
+            "w": 329,
+            "h": 269
+          },
+          "anchor": {
+            "x": 602,
+            "y": 346
+          }
+        },
+        {
+          "name": "corrupt_slime_move_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 830,
+            "y": 17,
+            "w": 316,
+            "h": 330
+          },
+          "anchor": {
+            "x": 988,
+            "y": 346
+          }
+        },
+        {
+          "name": "corrupt_slime_move_4",
+          "source": {
+            "x": 1208,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1226,
+            "y": 46,
+            "w": 308,
+            "h": 301
+          },
+          "anchor": {
+            "x": 1380,
+            "y": 346
+          }
+        },
+        {
+          "name": "corrupt_slime_move_5",
+          "source": {
+            "x": 1592,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1604,
+            "y": 120,
+            "w": 333,
+            "h": 224
+          },
+          "anchor": {
+            "x": 1771,
+            "y": 343
+          }
+        }
+      ]
+    },
+    {
+      "name": "corrupt_slime_attack",
+      "frames": [
+        {
+          "name": "corrupt_slime_attack_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 35,
+            "y": 437,
+            "w": 331,
+            "h": 276
+          },
+          "anchor": {
+            "x": 201,
+            "y": 712
+          }
+        },
+        {
+          "name": "corrupt_slime_attack_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 407,
+            "y": 434,
+            "w": 332,
+            "h": 277
+          },
+          "anchor": {
+            "x": 573,
+            "y": 710
+          }
+        },
+        {
+          "name": "corrupt_slime_attack_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 801,
+            "y": 401,
+            "w": 399,
+            "h": 339
+          },
+          "anchor": {
+            "x": 1001,
+            "y": 739
+          }
+        },
+        {
+          "name": "corrupt_slime_attack_4",
+          "source": {
+            "x": 1208,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1218,
+            "y": 438,
+            "w": 368,
+            "h": 280
+          },
+          "anchor": {
+            "x": 1402,
+            "y": 717
+          }
+        },
+        {
+          "name": "corrupt_slime_attack_5",
+          "source": {
+            "x": 1592,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1608,
+            "y": 490,
+            "w": 330,
+            "h": 223
+          },
+          "anchor": {
+            "x": 1773,
+            "y": 712
+          }
+        }
+      ]
+    },
+    {
+      "name": "executioner_move",
+      "frames": [
+        {
+          "name": "executioner_move_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 32,
+            "y": 778,
+            "w": 346,
+            "h": 305
+          },
+          "anchor": {
+            "x": 205,
+            "y": 1082
+          }
+        },
+        {
+          "name": "executioner_move_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 441,
+            "y": 762,
+            "w": 325,
+            "h": 325
+          },
+          "anchor": {
+            "x": 604,
+            "y": 1086
+          }
+        },
+        {
+          "name": "executioner_move_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 806,
+            "y": 795,
+            "w": 356,
+            "h": 291
+          },
+          "anchor": {
+            "x": 984,
+            "y": 1085
+          }
+        },
+        {
+          "name": "executioner_move_4",
+          "source": {
+            "x": 1208,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1218,
+            "y": 770,
+            "w": 317,
+            "h": 326
+          },
+          "anchor": {
+            "x": 1377,
+            "y": 1095
+          }
+        },
+        {
+          "name": "executioner_move_5",
+          "source": {
+            "x": 1592,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1591,
+            "y": 780,
+            "w": 352,
+            "h": 306
+          },
+          "anchor": {
+            "x": 1767,
+            "y": 1085
+          }
+        }
+      ]
+    },
+    {
+      "name": "executioner_attack",
+      "frames": [
+        {
+          "name": "executioner_attack_1",
+          "source": {
+            "x": 56,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 27,
+            "y": 1139,
+            "w": 356,
+            "h": 313
+          },
+          "anchor": {
+            "x": 205,
+            "y": 1451
+          }
+        },
+        {
+          "name": "executioner_attack_2",
+          "source": {
+            "x": 440,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 418,
+            "y": 1128,
+            "w": 361,
+            "h": 313
+          },
+          "anchor": {
+            "x": 599,
+            "y": 1440
+          }
+        },
+        {
+          "name": "executioner_attack_3",
+          "source": {
+            "x": 824,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 807,
+            "y": 1139,
+            "w": 370,
+            "h": 340
+          },
+          "anchor": {
+            "x": 992,
+            "y": 1478
+          }
+        },
+        {
+          "name": "executioner_attack_4",
+          "source": {
+            "x": 1208,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1177,
+            "y": 1143,
+            "w": 430,
+            "h": 418
+          },
+          "anchor": {
+            "x": 1392,
+            "y": 1560
+          }
+        },
+        {
+          "name": "executioner_attack_5",
+          "source": {
+            "x": 1592,
+            "y": 1208,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1561,
+            "y": 1140,
+            "w": 389,
+            "h": 419
+          },
+          "anchor": {
+            "x": 1756,
+            "y": 1558
+          }
+        }
+      ]
+    }
+  ]
+}
