@@ -440,7 +440,7 @@ export function createUI(mount) {
       panel.append(list);
       showOverlay(panel);
     },
-    showLoadout({ skins, realms, coins, unlocked, selectedSkin, selectedRealm, stats = {}, onSkin, onArea, onBuy, onStart, onReset }) {
+    showLoadout({ skins, realms, coins, unlocked, selectedSkin, selectedRealm, stats = {}, areaUnlocked = () => true, onCheat, onSkin, onArea, onBuy, onStart, onReset }) {
       const panel = document.createElement("div");
       panel.className = "overlay-panel loadout-panel";
       const skin = skins[selectedSkin];
@@ -513,16 +513,18 @@ export function createUI(mount) {
 
       const areaTitle = document.createElement("div");
       areaTitle.className = "area-title";
-      areaTitle.innerHTML = `<strong>Pilih area awal</strong><small>Semua realm bebas untuk testing</small>`;
+      areaTitle.innerHTML = `<strong>Pilih area awal</strong><small>Capai realm untuk membukanya</small>`;
       panel.append(areaTitle);
       const areaGrid = document.createElement("div");
       areaGrid.className = "area-grid";
       realms.forEach((item, index) => {
         const button = document.createElement("button");
+        const open = areaUnlocked(index);
         button.className = index === selectedRealm ? "is-selected" : "";
+        if (!open) { button.classList.add("is-locked"); button.disabled = true; }
         button.style.setProperty("--realm-a", item.colors[0]);
         button.style.setProperty("--realm-b", item.colors[1]);
-        button.innerHTML = `<b>${index + 1}</b><span>${item.short}</span>`;
+        button.innerHTML = `<b>${open ? index + 1 : "🔒"}</b><span>${item.short}</span>`;
         button.addEventListener("click", () => onArea(index));
         areaGrid.append(button);
       });
@@ -532,6 +534,13 @@ export function createUI(mount) {
       start.innerHTML = `<span class="control-label">▶ MASUK REALM ${selectedRealm + 1} · ${realms[selectedRealm].short}</span><small class="start-sub">Boss · ${realms[selectedRealm].boss}</small>`;
       start.addEventListener("click", onStart);
       panel.append(start);
+      if (onCheat) {
+        const cheat = document.createElement("button");
+        cheat.className = "ghost-btn cheat-btn";
+        cheat.textContent = "◆ 999 KOIN + BUKA SEMUA AREA";
+        cheat.addEventListener("click", onCheat);
+        panel.append(cheat);
+      }
       if (onReset) {
         const reset = document.createElement("button");
         reset.className = "reset-progress-btn";

@@ -944,3 +944,6 @@ button,
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+.area-grid button.is-locked { opacity: .4; filter: grayscale(.8); cursor: not-allowed; }
+.cheat-btn { justify-self: center; padding: .5em 1em; border-radius: 8px; font-size: clamp(11px, 2.8cqw, 13px); }

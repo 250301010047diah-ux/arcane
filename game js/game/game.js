@@ -40,8 +40,10 @@ export function createGame({ mount, sdk, tweaks, assets }) {
       const defaultSave = () => ({
         version: 2, bestScore: 0, bestRealm: 0, wins: 0, coins: 0,
         unlockedSkins: [0], selectedSkin: 0, selectedRealm: 0,
-        tutorialSeen: false, settings: { music: 1, sfx: 1 },
+        tutorialSeen: false, allAreas: false, settings: { music: 1, sfx: 1 },
       });
+      // Area i opens once the player has reached it (or the cheat unlocked all).
+      const areaUnlocked = (index) => saved.allAreas || index <= Math.min(9, saved.bestRealm);
       let saved = defaultSave();
       let state = null;
 
@@ -958,6 +960,15 @@ export function createGame({ mount, sdk, tweaks, assets }) {
           selectedSkin: state.selectedSkin,
           selectedRealm: state.realm,
           stats: { bestScore: saved.bestScore, bestRealm: saved.bestRealm, wins: saved.wins },
+          areaUnlocked,
+          onCheat() {
+            saved.coins = 999;
+            saved.allAreas = true;
+            void persist();
+            audio.sfx("buy");
+            openLoadout();
+            ui.toast("Koin 999 & semua area terbuka");
+          },
           onSkin(index) {
             audio.sfx("ui_click");
             // Only show the loader if the sheet isn't cached, so browsing doesn't flash.
@@ -983,6 +994,7 @@ export function createGame({ mount, sdk, tweaks, assets }) {
             }).catch(done);
           },
           onArea(index) {
+            if (!areaUnlocked(index)) return;
             audio.sfx("ui_click");
             state.realm = index;
             saved.selectedRealm = index;
@@ -1250,6 +1262,7 @@ export function createGame({ mount, sdk, tweaks, assets }) {
               selectedSkin: Math.max(0, Math.min(19, Number(savedData.selectedSkin) || 0)),
               selectedRealm: Math.max(0, Math.min(9, Number(savedData.selectedRealm) || 0)),
               tutorialSeen: savedData.tutorialSeen === true,
+              allAreas: savedData.allAreas === true,
               settings: {
                 music: clampUnit(savedData.settings?.music, 1),
                 sfx: clampUnit(savedData.settings?.sfx, 1),
@@ -1257,6 +1270,7 @@ export function createGame({ mount, sdk, tweaks, assets }) {
             };
           }
           applySoundSettings();
+          if (!areaUnlocked(saved.selectedRealm)) saved.selectedRealm = 0;
           await Promise.all([art.loadSkin(saved.selectedSkin), art.loadRealm(saved.selectedRealm)]);
           ui.setArt(art);
           renderer = new GameRenderer(ui.canvas, art);
